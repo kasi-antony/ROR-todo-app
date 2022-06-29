@@ -85,3 +85,6 @@ button:hover {
     flex-wrap: wrap;
     flex-direction: row;
 }
+.row_1::-webkit-scrollbar{
+    display: none;
+}
