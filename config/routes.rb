@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'todos/index'
+ root 'todos#index'
 
   match 'todos/index' , :to => 'todos#index' , :via => :get
   match 'todos/create' , :to => 'todos#create' , :via => :post
