@@ -1,0 +1,10 @@
+<div class="input_field" >
+<header>TO-DO</header>
+<form action="/todos/create" method="post">
+    <input type = "hidden" name = "authenticity_token" value = "<%= form_authenticity_token %>">
+    <input type="text" name="todo[task]" placeholder="ADD TASK">
+    <input placeholder="dd-mm-yyyy" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" name="todo[date]">
+    
+    <button>submit</button>
+</form>
+</div>
